@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "type": "software"
+  },
+  "about": {
+    "name": "Ben Johnson",
+    "email": "weagle08@gmail.com",
+    "phone": "334-740-6353",
+    "github": "https://github.com/weagle08",
+    "clearance": "DoD Secret",
+    "summary": "Husband, father, and software enthusiast. I enjoy a good software challenge, and find being a software developer fun and engaging. I equate writing software to solving a sudoku puzzle, sometimes you get an easy puzzle that you can solve in a short moment, and other times you get a puzzle that takes more than one attempt to solve correctly. When I'm not working or enjoying my family, I enjoy developing for home automation projects, mainly utilizing the MSP430 via the EZ430-RF2500 development board, but have lately taken interest in the Xbee line of IC boards. NodeJS is my new passion, and has sparked my once dull interest in JavaScript. I also enjoy playing soccer in the Huntsville Adult Soccer League."
+  },
+  "experience": [
+    {
+      "company": "SAIC",
+      "link": "http://www.saic.com/",
+      "location": "Huntsville, AL",
+      "date": "October 2012-Present",
+      "projects": [
+        {
+          "name": "XWALK",
+          "date": "April 2016 - Present",
+          "role": "Software Team Lead",
+          "description": "XWALK is an obsolescence management tool for Army PM AGSE. It allows the AGSE users to identify and resolve issues with parts which are nearing end of life within Army systems. XWALK is a public facing web application using TLS and has integrated CAC authentication via an OAuth 2.0 server and user role management. XWALK employs NodeJS as the primary server-side technology with a MongDB database. The frontend client is a single page application employing the Aurelia framework.",
+          "skills": {
+            "languages": ["javascript", "html", "css", "csharp"],
+            "technologies": ["nodejs", "aurelia", "gulp", "jspm", "npm", "jquery", "rest", "tls", "sass"],
+            "tools": ["windows", "linux", "webstorm", "git", "jira", "uml"],
+            "data": ["mongodb"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "lead team of 3 software engineers and an integrated tester to complete project requirements within budget and schedule constraints",
+            "derive software requirements from system level requirements which are then broken into developer task and worked using an Agile approach",
+            "provide monthly status updates to management on project status such as requirements progress, SLOC, identify any risk and schedule concerns",
+            "conduct software engineering working groups with customer to ensure the software meets their expectations",
+            "provide mentoring and guidance as a senior developer to more junior developers on the team",
+            "lay out software architecture and lead effort to select tool set to be used",
+	        "assist in developing code base",
+            "create design documentation such as data flow diagrams, database tables, and sequence diagrams"
+          ]
+        },
+        {
+          "name": "ADEC Central Database (ACD) v2.0",
+          "date": "October 2015 - July 2016",
+          "role": "Software Team Lead",
+          "description": "ACD is a business intelligence reporting tool. ACD collects battalion level data from multiple locations and produces brigade and Army level reports on mission statistics. ACD is a public facing web application which uses TLS and CAC authentication. ACD has a mixed back end of NodeJS and .NET services, as well as both MongoDB and MS SQL Server databases. The MongoDB database is used to store user data, as well as metadata about battalion data pushes. The MS SQL Server is used for building business intelligence dimensions using SQL Server Integration Services for Qlik Sense consumption. The ACD front end employs the Aurelia framework as well as Qlik Sense business reporting tools.",
+          "skills": {
+            "languages": ["javascript", "css", "html"],
+            "technologies": ["nodejs", "aurelia", "gulp", "jspm", "npm", "jquery", "rest", "tls", ".net", "ssis", "sass"],
+            "tools": ["windows", "webstorm", "visualstudio", "git", "tfs", "uml"],
+            "data": ["mongodb", "mssql", "qlik"],
+            "processes": ["rup"]
+          },
+          "work": [
+            "lead team of 5 developers, 1 database administrator, and 1 integrated tester to complete project requirements within schedule constraints",
+            "derive software requirements from system level requirements which are then broken into developer task and worked using a RUP approach",
+            "interface with customer in order to more clearly define project goals not clearly described in system requirements",
+            "assist in efforts to evaluate correct tool set for use on project",
+            "assist in developing code base",
+            "document design",
+            "work with subject matter experts to determine applicable reports",
+            "work with program managers to keep them updated on project progress and give monthly metric and status reports"
+          ]
+        },
+        {
+          "name": "ADEC Central Database (ACD) v1.0",
+          "date": "March 2015 - September 2015",
+          "role": "Senior Software Developer",
+          "description": "ACD v1.0 was strictly for data gathering in preparation for v2.0. ACD v1.0 employed web services which accepted machine to machine communications validated via certificates over a https connection. ACD v1.0 allowed battalion servers to periodically push MS SQL sync framework files as well as other files tagged with metadata to ACD for storage. ACD v1.0 used NodeJS services and a MongoDB to perform all functions. There was not user interface for ACD v1.0.",
+          "skills": {
+            "languages": ["javascript"],
+            "technologies": ["nodejs", "gulp", "npm", "rest", "tls"],
+            "tools": ["windows", "webstorm", "tfs", "uml"],
+            "data": ["mongodb"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "work with team of 3 developers and 1 integrated tester to complete project requirements within schedule constraints",
+            "primary developer for server side functions",
+            "produce design documentation for data flow and software design",
+            "create system to allow battalion servers to send disparate data to cold storage in order to hold for later analysis",
+            "include metadata with uploads in order to identify data so that it can later be processed"
+          ]
+        },
+        {
+          "name": "Aviation Data Exploitation Capability (ADEC) - Refactor Study",
+          "date": "December 2014 - February 2015",
+          "role": "Software Team Lead",
+          "description": "This was a small prototype to demonstrate refactoring the ADEC software. There were several problems in the design of the ADEC software that were made apparent as the software entered field quality testing and user test. The program managers chose me to lead a small 3 month effort to demonstrate implementing better software design for the system. The refactor demonstrated how concepts like dependency injection could lead to improved software through decoupling and easier testing. It also demonstrated how implementing patterns such as repository patterns between services and the database as well as model view view model on the client could lead to more maintainable software. It also demonstrated using REST services versus WCF soap services. This prototype also showed improved database interaction through the use of ORM tools like entity framework. The prototype was a success in that most patterns and tools demonstrated were integrated as permitted into the ADEC baseline.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": ["ef", "web-api", "rest", "wpf"],
+            "tools": ["windows", "visualstudio", "tfs", "uml"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "lead team of two developers to create working prototype",
+            "design and develop method for integrating new designs and technologies into an existing system",
+            "give presentation to software team explaining prototype design and functionality",
+            "demonstrate moving current older technologies such as WCF SOAP services to newer Web API REST services",
+            "demonstrate how an ORM like entity framework can save development time for simple database CRUD operations"
+          ]
+        },
+        {
+          "name": "Aviation Data Exploitation Capability (ADEC) v1.0 - Analysis and Visualization System (AVS)",
+          "date": "October 2012 - November 2014",
+          "role": "Senior Software Developer",
+          "description": "AVS is a visualization tool for safety, maintenance, and training purposes. Its purpose is to allow the playback of flights to provide analysis and visuals of flight events. With the AVS tool users can view and analyze all recorded parameters from a flight and also view the flight in both a 3D and 2D environment. The user can control parameters such as playback speed, map layers, and event parameter colors when visualizing a flight.",
+          "skills": {
+            "languages": ["csharp", "javascript"],
+            "technologies": ["rest", "wpf", "ef", "xna", "nodejs", ".net", "gdal", "geoserver"],
+            "tools": ["windows", "visualstudio", "tfs"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "assumed a lead role in development of a WMS compliant map server which can cache served data and handle multiple client request simultaneously",
+            "create pilot training tool which can recreate flights from on-board aircraft data collection",
+            "analyze raw flight data to detect in flight events",
+            "graphically display flight parameters and events in real time flight playback",
+            "play flight back in 3D environment complete with real world map data and terrain at real time as well as user selected speeds",
+            "run as standalone application as well as plugin to the ADEC system",
+            "currently working with development team of 9 in SCRUM environment to meet schedule and budget goals"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "HDI Solutions",
+      "link": "http://www.hdisolutions.com/",
+      "location": "Auburn, AL",
+      "date": "November 2011 - October 2012",
+      "projects": [
+        {
+          "name": "Electronic Case Management System (eCASE) v2.0 (prototype)",
+          "date": "August 2012 - October 2012",
+          "role": "Lead Designer/Developer",
+          "description": "This was a prototype re-write of the current eCASE management system. It was intended to be a replacement of the current system with new features and updated user interface. The main goals of this version over the previous version were to enable the application to run with no internet connection, add features which were hard to implement in the current baseline, and improve user experience. The prototype was designed as a desktop application, but with service oriented architecture so that a web interface could be added.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net", "rest", "wpf"],
+            "tools": ["windows", "visualstudio", "svn", "jira"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "design and present concepts for a next generation case management system prototype to replace existing legacy system",
+            "allow for robust inter-agency communication",
+            "allow system to operate even when internet connection is lost",
+            "led team of two developers to design and present new case management prototype"
+          ]
+        },
+        {
+          "name": "Electronic Case Management System (eCASE)",
+          "date": "November 2011 - October 2012",
+          "role": "Software Developer",
+          "description": "eCASE is an electronic case management system for police departments. At the time it managed police reporting for the Lee County Sheriff Office in Lee County, AL. It handled all police activity, from 911 call center dispatching to in the field recording of incidents. eCASE was a .NET 2.0 web application with a MS SQL server database.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": ["aspnetmvc"],
+            "tools": ["visualstudio", "tfs"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "maintain and enhance existing case management system for law enforcement agencies",
+            "modify ASP.Net web applications in order to meet changing law enforcement office needs",
+            "interfacing directly with customer to troubleshoot and solve technical problems"
+          ]
+        },
+        {
+          "name": "TX-DOT",
+          "date": "November 2011 - October 2012",
+          "role": "Software Developer",
+          "description": "This was a data entry application/process for the state of Texas traffic citation system. It allowed agencies that did not yet have digital systems for issuing traffic citations to send their scanned paper copies through this system to be digitized. It was written in several different languages, but backend processes were written in C# .net 2.0.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net"],
+            "tools": ["visualstudio", "tfs"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "maintain and refactor existing code",
+            "fix existing bugs and enhance system processes in order to eliminate manual task",
+            "troubleshoot internal problems"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Harris Corporation",
+      "link": "https://www.harris.com/",
+      "location": "Melbourne, FL",
+      "date": "June 2008 - November 2011",
+      "projects": [
+        {
+          "name": "Sensor Product Controller",
+          "date": "2009-2011",
+          "role": "Software Engineer",
+          "description": "The goal of this application was to enable remote management of many different types of cellular exploitation devices. Existing systems required local management and interfacing, and the sensor controller application allowed for remote management via the internet through secure VPN tunnels which were set up for communication. Data from the remote devices was collected and location information was displayed on a 2D map. Names of application and devices are withheld for sensitivity reasons.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net", "wpf", "gsm", "openvpn", "ef"],
+            "tools": ["visualstudio"],
+            "data": ["mssql", "sqlite"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "produce sensor controller application which can remotely manage and command multiple cellular sensor products",
+            "improve upon sensor network prototype to add support for wider range of cellular sensor products",
+            "add controls for multiple cellular protocol bands",
+            "use SOA to create a smarter sensor network which can connect to and be controlled by multiple clients using web services",
+            "use mixture of WCF and CXF web services using SOAP and WSDL first development",
+            "implemented algorithm to successfully process phone paging data",
+            "developed .NET library to quickly process KML data as .NET types",
+            "primary developer for 2D map interactions and functions",
+            "performed duties using SCRUM management process",
+            "used MS Entity Framework for object relational database modeling",
+            "worked with development team of 9 software engineers to meet schedule and budget goals and requirements"
+          ]
+        },
+        {
+          "name": "Dynamic PDF Generator",
+          "date": "2011",
+          "role": "Lead Software Engineer",
+          "description": "This was a small application to allow customers to make custom user guides for Harris provided systems. User guides for many systems could exceed several hundred pages and this application allowed the user to select sections from a PDF to create a custom user guide for a specific mission.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net", "wpf"],
+            "tools": ["visualstudio"],
+            "data": [],
+            "processes": ["agile"]
+          },
+          "work": [
+            "developed PDF generation software to allow Harris product users to dynamically generate field necessary user documentation",
+            "tool is able to parse XML from mapped sources to produce standardized XML output",
+            "integrated COTS PDF library",
+            "led team of 2 developers to realize budget and schedule goals"
+          ]
+        },
+        {
+          "name": "PC Based Phone Paging System",
+          "date": "2009-2010",
+          "role": "Software Engineer",
+          "description": "The PC phone paging system allowed the user to manipulate cellular carrier implementation exploits in order to determine certain characteristics of a cellular device. Names and specific operation is withheld for sensitivity reasons.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net", "mfc"],
+            "tools": ["visualstudio"],
+            "data": [],
+            "processes": ["agile"]
+          },
+          "work": [
+            "incorporate SMS alert messaging into existing product to notify user of important system events on desired mobile device",
+            "incorporate SIM balance inquiries for attached HSPA modem with valid SIM",
+            "worked with team of 3 developers to realize budget and schedule goals"
+          ]
+        },
+        {
+          "name": "Sensor Product Controller (Prototype)",
+          "date": "2008-2010",
+          "role": "Software Engineer",
+          "description": "This application was a prototype to determine the feasibility of creating an application which could control several different types of Harris cellular products remotely. Many Harris cellular products were local control only and the customer wanted a remote interface to control sensors. This prototype won a $5M follow on contract.",
+          "skills": {
+            "languages": ["csharp"],
+            "technologies": [".net", "wpf"],
+            "tools": ["visualstudio"],
+            "data": [],
+            "processes": ["agile"]
+          },
+          "work": [
+            "produced sensor controller prototype which could control multiple existing cellular sensor products remotely",
+            "used WPF framework to create rich user interface",
+            "wrapped Google Earth javascript API for use in .NET environment to add map interaction to desktop application",
+            "incorporated Google Earth map into prototype to give user control of sensors via map interface",
+            "interfaced frequently with customer to produce a design which fully met their desires and expectations",
+            "worked with team of 3 developers to realize budget and schedule goals",
+            "this $800k prototype study resulted in a $5M follow on award for additional work"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Power South Energy",
+      "link": "http://www.powersouth.com/",
+      "location": "Andalusia, AL",
+      "date": "August 2003 - August 2007 (20 months of total full time experience)",
+      "projects": [
+        {
+          "name": "Engineering Co-Op",
+          "date": "2003-2007",
+          "role": "Electrical Engineer",
+          "description": "This was a co-op with a power company. I performed several duties in a mixture of diciplines from electrical engineering to software development.",
+          "skills": {
+            "languages": [],
+            "technologies": [".net"],
+            "tools": ["visualstudio"],
+            "data": [],
+            "processes": []
+          },
+          "work": [
+            "lead plant lighting upgrade, to move from incandescent lighting to more efficient HID lighting",
+            "generate cost estimate for lighting upgrade, as well as procure replacements from best priced vendor",
+            "upgrade existing on sight weather station and update existing VB based UI to display readings from new weather station",
+            "program Allen Bradley controllers for plant sump pump operation",
+            "develop method for organizing and maintaining CAD drawings",
+            "learn daily power plant operations and procedures",
+            "observe and assist in updating operator screens for Siemens turbine operation"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "authentication-server",
+      "description": "OAuth 2.0 authentication server meant for SSO for multiple applications",
+      "skills": {
+        "languages": ["javascript"],
+        "technologies": ["nodejs", "gulp", "npm", "rest", "tls"],
+        "tools": ["webstorm", "git", "linux"],
+        "data": ["mongodb"],
+        "processes": ["agile"]
+      },
+      "work": [
+        "create single sign on server",
+        "allow registered users to create applications and manage access to the application via the authentication server",
+        "offer users the ability to user other SSO services such as Google, Twitter, or Facebook",
+        "secure and encrypt all traffic between the server and clients",
+        "provide as an in cloud service",
+	"must be platform independent (runs on Linux, Windows, OsX)"
+      ]
+    },
+    {
+      "name": "Home Automation",
+      "description": "Automation of commonly used items in the house such as light switches, outlets, garage door, door locks, and air conditioning vents. Utilized multiple embedded technologies such as the EZ430-RF2500 development board, as well as XBee radios.",
+      "skills": {
+        "languages": ["c", "cpp"],
+        "technologies": ["rest"],
+        "tools": ["eclipse", "git", "linux"],
+        "data": ["sqlite"],
+        "processes": ["agile"]
+      },
+      "work": [
+        "design circuit layout",
+        "determine components to use",
+        "develop embedded and UX software",
+	"development performed in Linux environment"
+      ]
+    },
+    {
+      "name": "Account Track",
+      "description": "Application that allows user to track expenses. Accounts within the application are sharable with other users and can be accessed across multiple devices. Written in cordova and available for both iOS and Android.",
+      "skills": {
+        "languages": ["javascript"],
+        "technologies": ["nodejs", "gulp", "npm", "rest", "cordova", "angular"],
+        "tools": ["webstorm", "git"],
+        "data": ["mongodb"],
+        "processes": ["agile"]
+      },
+      "work": [
+        "cross platform account/budget tracking mobile application",
+        "allows multi-device sign on",
+        "allows account sharing",
+        "works on all mobile OS",
+        "built using Apache Cordova framework",
+        "backend runs on NodeJS"
+      ]
+    },
+    {
+      "name": "Simple Budget (deprecated)",
+      "description": "Simple account tracking application written for WP8 mobile. Was previously available in Windows mobile store.",
+      "skills": {
+        "languages": ["csharp"],
+        "technologies": [".net", "xaml"],
+        "tools": ["windows", "visualstudio", "svn"],
+        "data": [],
+        "processes": []
+      },
+      "work": [
+        "WP8 native application",
+        "allow user to track daily expenses",
+        "allow user to edit and delete entries"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Auburn University",
+      "link": "http://www.auburn.edu",
+      "location": "Auburn, AL",
+      "date": "2002 - 2008",
+      "degree": "Electrical Computer Engineering"
+    }
+  ]
+}

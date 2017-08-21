@@ -1,0 +1,7 @@
+@media screen and (min-width: 64em) {
+  .education-section {
+    margin: 1.5em; } }
+
+@media screen and (max-width: 64em) {
+  .education-section {
+    margin: 0.5em; } }
