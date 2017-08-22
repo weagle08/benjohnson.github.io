@@ -4,18 +4,48 @@
   },
   "about": {
     "name": "Ben Johnson",
-    "email": "weagle08@gmail.com",
+    "email": "ben.s.johnson@live.com",
     "phone": "334-740-6353",
     "github": "https://github.com/weagle08",
-    "clearance": "DoD Secret",
-    "summary": "Husband, father, and software enthusiast. I enjoy a good software challenge, and find being a software developer fun and engaging. I equate writing software to solving a sudoku puzzle, sometimes you get an easy puzzle that you can solve in a short moment, and other times you get a puzzle that takes more than one attempt to solve correctly. When I'm not working or enjoying my family, I enjoy developing for home automation projects, mainly utilizing the MSP430 via the EZ430-RF2500 development board, but have lately taken interest in the Xbee line of IC boards. NodeJS is my new passion, and has sparked my once dull interest in JavaScript. I also enjoy playing soccer in the Huntsville Adult Soccer League."
+    "clearance": "DoD Secret/TS interim",
+    "summary": "Husband, father, and software enthusiast. I enjoy a good software challenge, and find being a software developer fun and engaging. I equate writing software to solving a sudoku puzzle, sometimes you get an easy puzzle that you can solve in a short moment, and other times you get a puzzle that takes more than one attempt to solve correctly. When I'm not working or enjoying my family, I enjoy developing for home automation projects, mainly utilizing the MSP430 via the EZ430-RF2500 development board, but have lately taken interest in the Xbee line of IC boards. NodeJS is my latest passion, and I love teaching and introducing it to my peers. I also enjoy playing soccer in the Huntsville Adult Soccer League."
   },
   "experience": [
+    {
+      "company": "COLSA Corporation",
+      "link": "http://www.colsa.com/",
+      "location": "Huntsville, AL",
+      "date": "January 2017 - Present",
+      "projects": [
+        {
+          "name": "Prime (Revamped)",
+          "date": "January - Present",
+          "role": "Software Team Lead",
+          "description": "Prime is a contract management tool. Primes purpose is to allow contract managers to more easily manage their contract. I was selected as lead of this project in order to re-write the existing tool and make it accomodate a wider range of contract types be it Firm Fixed, Cost Plus, or Time and Materials. The new Prime version uses .NET backend with MS SQL server as the data storage mechanism and Angular 4.0 as the client side technology. It is a service oriented architecture with clean seperation of concerns.",
+          "skills": {
+            "languages": ["javascript", "html", "css", "csharp", "typescript"],
+            "technologies": [".net", "angular", "gulp", "webpack", "npm", "rest", "tls", "sass"],
+            "tools": ["windows", "git", "jira", "uml"],
+            "data": ["mssql"],
+            "processes": ["agile"]
+          },
+          "work": [
+            "lead team of 3 software engineers and an 2 tester to complete project requirements within budget and schedule constraints",
+            "provide sprint status updates to management on project status such as requirements progress, identify any risk and schedule concerns",
+            "conduct software engineering working groups with customer to ensure the software meets their expectations",
+            "provide mentoring and guidance as a senior developer to more junior developers on the team",
+            "lay out software architecture and lead effort to select tool set to be used",
+	          "assist in developing code base",
+            "create design documentation such as data flow diagrams, database tables, and sequence diagrams"
+          ]
+        }
+      ]
+    },
     {
       "company": "SAIC",
       "link": "http://www.saic.com/",
       "location": "Huntsville, AL",
-      "date": "October 2012-Present",
+      "date": "October 2012 - December 2016",
       "projects": [
         {
           "name": "XWALK",
@@ -50,7 +80,7 @@
             "technologies": ["nodejs", "aurelia", "gulp", "jspm", "npm", "jquery", "rest", "tls", ".net", "ssis", "sass"],
             "tools": ["windows", "webstorm", "visualstudio", "git", "tfs", "uml"],
             "data": ["mongodb", "mssql", "qlik"],
-            "processes": ["rup"]
+            "processes": ["rup", "waterfall"]
           },
           "work": [
             "lead team of 5 developers, 1 database administrator, and 1 integrated tester to complete project requirements within schedule constraints",
@@ -315,6 +345,17 @@
     }
   ],
   "projects": [
+    {
+      "name": "Fleet Driver Service",
+      "description": "Truck driver application processing program.",
+      "skills": {
+        "languages": ["javascript"],
+        "technologies": ["nodejs", "gulp", "npm", "rest", "tls"],
+        "tools": ["git"],
+        "data": ["postgres"],
+        "processes": ["agile"]
+      }
+    },    
     {
       "name": "authentication-server",
       "description": "OAuth 2.0 authentication server meant for SSO for multiple applications",
