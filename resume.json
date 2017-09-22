@@ -21,7 +21,7 @@
           "name": "Prime (Revamped)",
           "date": "January - Present",
           "role": "Software Team Lead",
-          "description": "Prime is a contract management tool. Primes purpose is to allow contract managers to more easily manage their contract. I was selected as lead of this project in order to re-write the existing tool and make it accomodate a wider range of contract types be it Firm Fixed, Cost Plus, or Time and Materials. The new Prime version uses .NET backend with MS SQL server as the data storage mechanism and Angular 4.0 as the client side technology. It is a service oriented architecture with clean seperation of concerns.",
+          "description": "Prime is a contract management tool. Prime's purpose is to allow contract managers to more easily manage their contract. I was selected as lead of this project in order to re-write the existing tool and make it accomodate a wider range of contract types be it Firm Fixed, Cost Plus, or Time and Materials. The new Prime version uses a .NET backend with MS SQL server as the data storage mechanism and Angular 4.0 as the client side technology. It is a service oriented architecture with clean seperation of concerns.",
           "skills": {
             "languages": ["javascript", "html", "css", "csharp", "typescript"],
             "technologies": [".net", "angular", "gulp", "webpack", "npm", "rest", "tls", "sass"],
