@@ -46,7 +46,7 @@
           "name": "Prime (Revamped)",
           "date": "January - Present",
           "role": "Software Team Lead",
-          "description": "Prime is a contract management tool. Primes purpose is to allow contract managers to more easily manage their contract. I was selected as lead of this project in order to re-write the existing tool and make it accomodate a wider range of contract types be it Firm Fixed, Cost Plus, or Time and Materials. The new Prime version uses .NET backend with MS SQL server as the data storage mechanism and Angular 4.0 as the client side technology. It is a service oriented architecture with clean seperation of concerns.",
+          "description": "Prime is a contract management tool. Prime's purpose is to allow contract managers to more easily manage their contract. I was selected as lead of this project in order to re-write the existing tool and make it accomodate a wider range of contract types be it Firm Fixed, Cost Plus, or Time and Materials. The new Prime version uses a .NET backend with MS SQL server as the data storage mechanism and Angular 4.0 as the client side technology. It is a service oriented architecture with clean seperation of concerns.",
           "skills": {
             "languages": ["javascript", "html", "css", "csharp", "typescript"],
             "technologies": [".net", "angular", "gulp", "webpack", "npm", "rest", "tls", "sass"],
@@ -55,13 +55,14 @@
             "processes": ["agile"]
           },
           "work": [
-            "lead team of 3 software engineers and an 2 tester to complete project requirements within budget and schedule constraints",
+            "lead team of 3 software engineers and 2 tester to complete project requirements within budget and schedule constraints",
             "provide sprint status updates to management on project status such as requirements progress, identify any risk and schedule concerns",
             "conduct software engineering working groups with customer to ensure the software meets their expectations",
             "provide mentoring and guidance as a senior developer to more junior developers on the team",
             "lay out software architecture and lead effort to select tool set to be used",
-	          "assist in developing code base",
-            "create design documentation such as data flow diagrams, database tables, and sequence diagrams"
+	    "assist in developing code base",
+            "create design documentation such as data flow diagrams, database tables, and sequence diagrams",
+		  "CMMI 3"
           ]
         }
       ]
@@ -91,7 +92,7 @@
             "conduct software engineering working groups with customer to ensure the software meets their expectations",
             "provide mentoring and guidance as a senior developer to more junior developers on the team",
             "lay out software architecture and lead effort to select tool set to be used",
-	        "assist in developing code base",
+	    "assist in developing code base",
             "create design documentation such as data flow diagrams, database tables, and sequence diagrams"
           ]
         },
@@ -274,7 +275,8 @@
             "primary developer for 2D map interactions and functions",
             "performed duties using SCRUM management process",
             "used MS Entity Framework for object relational database modeling",
-            "worked with development team of 9 software engineers to meet schedule and budget goals and requirements"
+            "worked with development team of 9 software engineers to meet schedule and budget goals and requirements",
+		  "CMMI 3"
           ]
         },
         {
@@ -293,7 +295,8 @@
             "developed PDF generation software to allow Harris product users to dynamically generate field necessary user documentation",
             "tool is able to parse XML from mapped sources to produce standardized XML output",
             "integrated COTS PDF library",
-            "led team of 2 developers to realize budget and schedule goals"
+            "led team of 2 developers to realize budget and schedule goals",
+		  "CMMI 3"
           ]
         },
         {
@@ -311,7 +314,8 @@
           "work": [
             "incorporate SMS alert messaging into existing product to notify user of important system events on desired mobile device",
             "incorporate SIM balance inquiries for attached HSPA modem with valid SIM",
-            "worked with team of 3 developers to realize budget and schedule goals"
+            "worked with team of 3 developers to realize budget and schedule goals",
+		  "CMMI 3"
           ]
         },
         {
@@ -333,7 +337,8 @@
             "incorporated Google Earth map into prototype to give user control of sensors via map interface",
             "interfaced frequently with customer to produce a design which fully met their desires and expectations",
             "worked with team of 3 developers to realize budget and schedule goals",
-            "this $800k prototype study resulted in a $5M follow on award for additional work"
+            "this $800k prototype study resulted in a $5M follow on award for additional work",
+		  "CMMI 3"
           ]
         }
       ]
