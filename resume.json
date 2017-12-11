@@ -11,11 +11,36 @@
     "summary": "Husband, father, and software enthusiast. I enjoy a good software challenge, and find being a software developer fun and engaging. I equate writing software to solving a sudoku puzzle, sometimes you get an easy puzzle that you can solve in a short moment, and other times you get a puzzle that takes more than one attempt to solve correctly. When I'm not working or enjoying my family, I enjoy developing for home automation projects, mainly utilizing the MSP430 via the EZ430-RF2500 development board, but have lately taken interest in the Xbee line of IC boards. NodeJS is my latest passion, and I love teaching and introducing it to my peers. I also enjoy playing soccer in the Huntsville Adult Soccer League."
   },
   "experience": [
+	{
+	  "company": "Northrop Grumman",
+      "link": "http://www.northropgrumman.com/",
+      "location": "Huntsville, AL",
+      "date": "November 2017 - Present",
+      "projects": [
+        {
+          "name": "IBCS",
+          "date": "November - Present",
+          "role": "Software Engineer III",
+          "description": "IBCS is a communication system for Army next generation warfighter capabilities.",
+          "skills": {
+            "languages": ["cpp"],
+            "technologies": [],
+            "tools": ["linux", "svn", "jira", "uml"],
+            "data": [],
+            "processes": ["waterfall"]
+          },
+          "work": [
+            "working with team of developers on scenario generation for the system",
+			"developing components for embedded training module"
+          ]
+        }
+      ]
+    },
     {
       "company": "COLSA Corporation",
       "link": "http://www.colsa.com/",
       "location": "Huntsville, AL",
-      "date": "January 2017 - Present",
+      "date": "January 2017 - November 2017",
       "projects": [
         {
           "name": "Prime (Revamped)",
